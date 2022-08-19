@@ -1,0 +1,113 @@
+*{
+    margin:0 ;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.home{ 
+    background-image: url(img3.jpg);
+    background-position: center;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+nav ul li{
+    opacity: 0.6;
+    text-shadow:2px 2px 5px blueviolet;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: relative;
+   display: inline-block;
+   list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+}
+
+
+  
+
+.home nav ul a{
+    color: rgb(234, 20, 138);
+    font-weight: bold;
+}
+.home nav ul a :hover{
+    color: aliceblue;
+}
+ li {
+     position: fixed;
+    text-align: center;
+    }
+    
+
+ .detail{
+     background-image: url(img2.jpg);
+     background-attachment:scroll;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 1000px;
+     text-align: center;
+     overflow: auto;
+ }   
+.detail h1{
+    font-size: 50px;
+    color: rgb(6, 84, 80);
+    padding: 200px;
+    height: 50px;
+    text-decoration: none;
+
+    
+}
+
+.detail p{
+    color: azure;
+    line-height: 20px;
+
+}
+.detail a {
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 6em;
+
+}
+.detail a{
+    color: rgb(105, 54, 144);
+    border: solid;
+    
+    
+    
+}
+
+a:hover{
+    color: aqua;
+    font-weight: bold;
+}
+.mypic{
+    width: 150px;
+    background-repeat: no-repeat;
+    border-radius: 10% ;
+    
+}
+.about{
+    background-image: url(img2.jpg);
+    background-attachment:scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: auto;
+    
+}
+.about h2{
+    color: aquamarine;
+    text-align: center;
+    text-emphasis: none;
+}
